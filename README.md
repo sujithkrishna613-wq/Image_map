@@ -131,7 +131,10 @@ puli.html
 # OUTPUT
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/895dc407-957d-4423-9698-9c940c4c9565" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ec04b13-123e-4396-a857-6be91b48204d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8ec717f1-7171-4de3-8d8c-2a45fc6353ef" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b223a311-9f39-4937-a0d8-f78a1cc4a11e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9e9ba317-b5a7-488b-b534-ecfde8017f38" />
+
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
