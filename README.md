@@ -128,6 +128,36 @@ puli.html
     </body>
 </html>
 ```
+```
+views.py
+
+from django.shortcuts import render,HttpResponse
+def fun(request):
+    return render(request,'map.html')
+def per(request):
+    return render(request,'peram.html')
+def anna(request):
+    return render(request,'anna.html')
+def kil(request):
+    return render(request,'kil.html')
+def puli(request):
+    return render(request,'puli.html')
+```
+```
+ulrs.py
+
+from django.contrib import admin
+from django.urls import path
+from mapapp import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',views.fun),
+    path('peram',views.per),
+    path('kora',views.anna),
+    path('kil',views.kil),
+    path('puli',views.puli),
+```
 # OUTPUT
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/895dc407-957d-4423-9698-9c940c4c9565" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0ec04b13-123e-4396-a857-6be91b48204d" />
